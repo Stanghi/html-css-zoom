@@ -10,5 +10,22 @@ body{
 }
 
 /* UTILITY */
-
+.debug{
+    background-color: rgba(255, 0, 0, .5);
+    border: 1px solid black;
+}
 /* COMPONENTS */
+
+/* HEADER */
+header{
+    height: 50px;
+}
+
+main{
+    height: calc(100vh - 125px);
+    overflow: auto;
+}
+
+footer{
+    height: 75px;
+}

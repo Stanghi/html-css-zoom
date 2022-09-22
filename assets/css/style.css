@@ -8,6 +8,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: #000000;
+    color: #FFFFFF;
 }
 
 /* UTILITY */
@@ -21,7 +22,6 @@ body{
 header{
     position: relative;
     height: 50px;
-    color: #FFFFFF;
 }
 
 .header-buttom{
@@ -56,4 +56,61 @@ main{
 /* FOOTER */
 footer{
     height: 75px;
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer i{
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+}
+
+footer span{
+    font-size: .9rem;
+}
+
+.fa-chevron-up{
+    font-size: .8rem;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+.green-icon i{
+    color: #4BC800;
+}
+
+.box-chevron{
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+    padding-right: 15px;
+}
+
+/* F-LEFT-SIDE */
+.f-left-side{
+    display: flex;
+}
+
+/* F-CENTER-SIDE */
+.f-center-side{
+    display: flex;
+}
+
+/* END-MEETING */
+.end-meeting{
+    background-color: #4A4A4A;
+    color:#FF0000;
+    padding: 30px 20px;
+    font-size: .9rem;
+}
+
+.end-meeting:hover{
+    background-color: #707070;
 }

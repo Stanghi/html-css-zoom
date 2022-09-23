@@ -120,17 +120,16 @@ footer span{
 }
 
 /* F-LEFT-SIDE */
-.f-left-side{
-    display: flex;
-}
-
 /* F-CENTER-SIDE */
+.f-left-side,
 .f-center-side{
     display: flex;
+    flex-shrink: 0;
 }
 
 /* END-MEETING */
 .end-meeting{
+    flex-shrink: 0;
     background-color: #4A4A4A;
     color:#FF0000;
     padding: 30px 20px;
